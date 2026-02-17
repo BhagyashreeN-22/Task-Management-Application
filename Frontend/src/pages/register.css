@@ -1,0 +1,81 @@
+/* Container for full page */
+.register-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #c7d2f1, #7df1c6);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Register form box */
+.register-form {
+  background-color: #fff;
+  padding: 40px 30px;
+  border-radius: 12px;
+  width: 350px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Form title */
+.register-form .title {
+  margin-bottom: 25px;
+  color: #333;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+/* Input fields */
+.register-form input {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 18px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  transition: border 0.3s ease;
+}
+
+/* Input focus effect */
+.register-form input:focus {
+  border: 2px solid #4e73df;
+  outline: none;
+}
+
+/* Submit button */
+.register-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #4e73df;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.register-form button:hover {
+  background-color: #2e59d9;
+}
+
+/* Error message */
+.error {
+  margin-top: 12px;
+  color: #ff4d4f;
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+}
+
+/* Responsive */
+@media screen and (max-width: 400px) {
+  .register-form {
+    width: 90%;
+    padding: 30px 20px;
+  }
+}

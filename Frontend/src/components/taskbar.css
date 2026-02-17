@@ -1,0 +1,94 @@
+/* ========================= */
+/* TASK CARD CONTAINER */
+/* ========================= */
+
+.task-card {
+  background-color: #ffffff;
+  padding: 18px 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  margin-bottom: 15px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.task-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+}
+
+/* ========================= */
+/* TITLE */
+/* ========================= */
+
+.task-card h3 {
+  margin: 0 0 8px 0;
+  font-size: 18px;
+  color: #333;
+}
+
+/* ========================= */
+/* DESCRIPTION */
+/* ========================= */
+
+.task-desc {
+  margin-bottom: 8px;
+  color: #555;
+  line-height: 1.4;
+}
+
+/* ========================= */
+/* DUE DATE */
+/* ========================= */
+
+.task-date {
+  font-size: 13px;
+  color: #888;
+  margin-bottom: 10px;
+}
+
+/* ========================= */
+/* ACTIONS ROW */
+/* ========================= */
+
+.task-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 8px;
+}
+
+/* ========================= */
+/* STATUS DROPDOWN */
+/* ========================= */
+
+.task-actions select {
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  outline: none;
+  transition: border 0.2s ease;
+}
+
+.task-actions select:focus {
+  border-color: #007bff;
+}
+
+/* ========================= */
+/* DELETE BUTTON */
+/* ========================= */
+
+.delete-btn {
+  background-color: #e63946;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+
+.delete-btn:hover {
+  background-color: #c82333;
+  transform: scale(1.05);
+}

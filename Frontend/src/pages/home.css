@@ -1,0 +1,62 @@
+.home-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #c7d2f1, #7df1c6);
+  color: black;
+  text-align: center;
+  padding: 20px;
+}
+
+.home-content {
+  max-width: 600px;
+}
+
+.home-title {
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.home-description {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.home-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.btn-login,
+.btn-register {
+  padding: 12px 30px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.btn-login {
+  background-color: #ffffff;
+  color: #4e73df;
+}
+
+.btn-login:hover {
+  background-color: #e2e8f0;
+}
+
+.btn-register {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+}
+
+.btn-register:hover {
+  background-color: white;
+  color: #4e73df;
+}
